@@ -1,0 +1,37 @@
+# Hotel Booking Project - Root .gitignore
+
+# Exclude all unrelated files and folders
+*.pdf
+*.docx
+*.zip
+*.rar
+*.exe
+*.c
+process.ipynb
+split.py
+*.csv
+
+# Exclude unrelated directories
+coffee-*/
+bbox_ds-*/
+kyanon-assignment/
+messenger_images/
+cropped_bboxes/
+processed_coffee_leaves/
+.vscode/
+
+# Include only hotel booking project folders
+!HotelBooking-main/
+!HotelBooking-server/
+!DEPLOYMENT_GUIDE.md
+!deploy.sh
+
+# Standard ignores
+node_modules/
+.env
+.env.local
+*.log
+dist/
+build/
+.DS_Store
+Thumbs.db
